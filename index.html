@@ -2,40 +2,49 @@
 <html lang="es">
   <head>
     <title>Portafolio - Maximo G</title>
-    <link rel="stylesheet"  href="Style.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="NerdFont.css">
   </head>
   <body>
     <header>
-      <img src="imagenes/Maxi.jpg">
+      <img src="imagenes/terry2.png">
       <div>
         <h1>Maximo Gastiazoro</h1>
-        <h2>Desarrollador Back-end y Programador</h2>
-        <div class="media-container">
-          <a href="https://github.com/Maxi-gasti">
-            <div>
-              <img src="imagenes/github.png" alt="github">
-            </div>
-          </a>
-          <a href="mailto:maximogastiazoro@gmail">
-            <div>
-              <img src="imagenes/gmail.png" style="width:24px; height:22px; padding: 2px 1px 2px 1px;" alt="github">
-            </div>
-          </a>
-        </div>
+        <h2>Back-end Developer & Programador</h2>
       </div>
     </header>
         
     <!-- SKILLS -->
+    <aside>
+      <div >
+        <h1>M</h1>
+        <h3>DJANGO DEV</h3>
+      </div>
+      <nav>
+        <a href="#SKILLS"><button>SKILLS</button></a>
+        <a href="#ABOUT-ME"><button>ABOUT ME</button></a>
+        <a href="#WEB-P"><button>WEB PROJECTS</button></a>
+        <a href="#OTHER-P"><button>OTHER PROJECTS</button></a>
+        <div class="contacts">
+          <p class="font"><a href="https://github.com/Maxi-gasti"style="font-size: 32px"> </a><a style="font-size:26px"></a></p>
+          <p style="display: flex; align-items: center; justify-content: center; "><span class="font" style="font-size: 20px; margin-right: 10px;"> </span>maximogastiazoro@gmail.com</p>
+        </div>
+      </nav>
+    </aside>
 
     <main class="margen">
-      <h2 class="skills-title">Skills</h2>
+      <h2 class="skills-title" id="SKILLS">Skills</h2>
       <section class="Skills">
         <article>
-          <h3>Lenguages</h3>
+          <h3>Stack Primario</h3>
           <div class="List-Skill">
             <div class="List-Skill-Item">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python">
               Python
+            </div>
+            <div class="List-Skill-Item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="Django">
+              Django
             </div>
             <div class="List-Skill-Item">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5">
@@ -46,8 +55,30 @@
               CSS
             </div>
             <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="c">
-              C
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash">
+              Bash
+            </div> 
+            <div class="List-Skill-Item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Arch Linux">
+              Linux
+            </div>
+            <div class="List-Skill-Item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" alt="Nvim">
+              Nvim
+            </div> 
+          </div>
+        </article>
+        <div id="Skills-Line"></div>
+        <article>
+          <h3>Stack Secundario </h3>
+          <div class="List-Skill">
+            <div class="List-Skill-Item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git">
+              Git
+            </div>
+            <div class="List-Skill-Item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github">
+              Github
             </div>
             <div class="List-Skill-Item">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="mysql">
@@ -56,6 +87,14 @@
             <div class="List-Skill-Item">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg" alt="Lua">
               Lua
+            </div>
+            <div class="List-Skill-Item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas">
+              Pandas
+            </div>
+            <div class="List-Skill-Item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+              Bootstrap
             </div>
             <div class="List-Skill-Item">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C plus plus">
@@ -74,97 +113,31 @@
               Rust
             </div>
             <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash">
-              Bash
-            </div>
-          </div>
-        </article>
-        <div id="Skills-Line"></div>
-        <article>
-          <h3>Spaces of Work</h3>
-          <div class="List-Skill">
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" alt="Arch Linux">
-              ArchLinux
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="js">
+              JS
             </div>
             <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git">
-              Git
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github">
-              Github
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="Django">
-              Django
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas">
-              Pandas
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" alt="Nvim">
-              Nvim
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
-              Bootstrap
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="c">
+              C
             </div>
           </div>
         </article>
       </section>
 
       <!-- ABOUT ME -->
-
-      <h2 class="about-title">About me</h2>
-      <p class="about-text">Tengo 18 años soy de Entre Rios Parana, soy un joven que estudia de forma autodidacta tecnologias para desarollo web de Back-end y software de bajo nivel, me entusiasma los sistemas complejos y aprender nuevas tecnologias. Aunque todavia no finalizo mis estudios de secundaria he invertido horas en aprender sobre lenguajes como C, Lua y Python, si tuviera que destacar mi lenguaje principal seria Python. Me consideraria una persona minimalisma que busca mas el funcionamiento de un sistema a que su estetica, aunque tambien busco un balance entre estetica y funcionamiento.</p>
-
+      <section class="about-section">
+        <h2 class="about-title" id="ABOUT-ME">About me</h2>
+        <p class="about-text">Tengo 18 años soy de Entre Rios Parana, soy un joven que estudia de forma autodidacta tecnologias para desarollo web de Back-end y software de bajo nivel, me entusiasma los sistemas complejos y aprender nuevas tecnologias. he invertido horas en aprender sobre lenguajes como C, Lua y Python, siendo mi lenguaje principal Python. Mis conocimientos primarios serian gestion de bases de datos y logica transparente (back-end)</p> 
+      </section>
         <!-- WEB PROJECTS -->
 
-      <h2 class="Project-web-title">Proyectos WEB</h2>
+      <h2 class="Project-web-title" id="WEB-P">Proyectos WEB</h2>
       <section class="Projects-web">
-        <article>
-          <div class="Project-Box">
-            <h3>Pagina de Club de Jazz<span>(Mayo-2025)</span></h3>
-            <p>Este Proyecto escolar se trato de crear una pagina que implemente un formulario de ingreso a traves de POST con PHP, me base en un club de jazz ficticio concrete el proyecto con un total de 9 paginas, las cargas de datos fueron procesadas por php para mostrarse y si no cumple con ciertos requisitos enviar al usuario a una pagina de indicacion.</p>
-            <div class="List-Skill">
-              <div class="List-Skill-Item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" alt="Arch Linux">
-                ArchLinux
-              </div>
-              <div class="List-Skill-Item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5">
-                HTML
-              </div>
-              <div class="List-Skill-Item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3">
-                CSS
-              </div>
-              <div class="List-Skill-Item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP">
-                PHP
-              </div>
-            </div>
-            <br>
-            <div class="Project-repo" >
-              <a href="https://github.com/Maxi-gasti/Club-Jazz-Page">
-                <img src="imagenes/github.png" class="Project-repo-img" alt="github">
-                Repositorio
-              </a>      
-            </div>
-          </div>
-          <img src="imagenes/Project-1.png" class="Project-Img">
-        </article>
         <article>
           <div class="Project-Box">
             <h3>DJANGO CRUD<span>Julio-2025</span></h3>
             <p>Este fue mi primer proyecto CRUD, utlice django como framework, hice uso de Bootstrap 5 para personalizar las plantillas. Esta app te permite guardar tareas, actualizarlas y eliminarlas, como paso final lo subi a la nube a travez de render.com donde utilice algunos comandos de bash de linux para subir correctamente el repositorio y mudar la base de datos de sqlite3 a Postgrl.</p>
             <div class="List-Skill">
-              <div class="List-Skill-Item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" alt="Arch Linux">
-                ArchLinux
-              </div>
               <div class="List-Skill-Item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" alt="Nvim">
                 Nvim
@@ -192,7 +165,7 @@
             </div>
           <br>
           <div class="Project-repo" >
-            <a href="https://github.com/Maxi-gasti/Club-Jazz-Page">
+            <a href="https://github.com/Maxi-gasti/django-auth-crud">
               <img src="imagenes/github.png" class="Project-repo-img" alt="github">
               Repositorio
             </a>      
@@ -202,13 +175,10 @@
         </article>
         <article>
           <div class="Project-Box">
-            <h3>Isef<span>(Junio-2025)</span></h3>
-            <p>Isef es una empresa ficticia que hice para pulir mis habilidades no fue hecha con un curso de antemano ya que queria usar mis propios conocimientos y tambien mejorar la parte de autodidacta, lleva todo lo que aprendi hasta hoy para intentar simular una pagina real, quise destacar mas en la personalizacion de css y html, mejore mis habilidades para orginizar la app en django y hice uso de el paradigma de DRY (Don't repeat yourself).</p>
+            <h3>DJANGO API REST<span>(Agosto-2025)</span></h3>
+            <p>Con el concepto de un bazar frutal decidi crear una api personalizada para hacer una API REST, tiene aspectos tanto de seguridad como de verificacion. Consiste en una seccion aparte que requiere login de personal y poder usar un apartado de dashboard para llamar a la api de formas: POST,GET,DELETE & PUT. Me sirvio para aprender API REST, decidi hacer la api a traves de views para tener mas control. Me sirvio para aprender cosas como las solicitudes de api, conversion a datos json, reforzar sobre conocimiento de base de datos, y asegurar enrutamientos.</p>
             <div class="List-Skill">
-              <div class="List-Skill-Item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" alt="Arch Linux">
-                ArchLinux
-              </div>
+
               <div class="List-Skill-Item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" alt="Nvim">
                 Nvim
@@ -232,7 +202,81 @@
             </div>
             <br>
             <div class="Project-repo" >
+              <a href="https://github.com/Maxi-gasti/Page-Isef">
+                <img src="imagenes/github.png" class="Project-repo-img" alt="github">
+                Repositorio
+              </a>      
+            </div>
+          </div>
+          <img src="imagenes/bazar-6.png" class="Project-Img">
+        </article>
+        <article>
+          <div class="Project-Box">
+            <h3>PHP CRUD<span>(Noviembre-2025)</span></h3>
+            <p>Este Proyecto escolar final de secundaria se trato de crear una pagina que implemente un sistema CRUD con 3 servicios, el tema era libre y escogi mc. La pagina consiste en el inicio y el sistema de gestion donde consiste en tablas con botones de operacion, tanto para eliminar como editar. La pagina aunque en si es simple, busca en enfatizar en el CRUD de php mas que en el html y css, tambien logre seguir mejorando mi organizacion aplicando fonts extras a mi caracter (Nerd Fonts).</p>
+            <div class="List-Skill">
+
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" alt="Nvim">
+                Nvim
+              </div>
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5">
+                HTML
+              </div>
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3">
+                CSS
+              </div>
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP">
+                PHP
+              </div>
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="mysql">
+                SQL
+              </div>
+            </div>
+            <br>
+            <div class="Project-repo" >
               <a href="https://github.com/Maxi-gasti/Club-Jazz-Page">
+                <img src="imagenes/github.png" class="Project-repo-img" alt="github">
+                Repositorio
+              </a>      
+            </div>
+          </div>
+          <img src="imagenes/MaxiMC-3.png" class="Project-Img">
+        </article>
+        <article>
+          <div class="Project-Box">
+            <h3>Isef<span>(Octubre-2025)</span></h3>
+            <p>Isef es una empresa ficticia que hice para pulir mis habilidades no fue hecha con un curso de antemano ya que queria usar mis propios conocimientos y tambien mejorar la parte de autodidacta, con un back-end basico de login y compras es para intentar simular una pagina real de una empresa que no requiere un crud o db complejos, quise destacar mas en la personalizacion de css y html, mejore mis habilidades para organizar la app en django.</p>
+            <div class="List-Skill">
+
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" alt="Nvim">
+                Nvim
+              </div>
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="Django">
+                Django
+              </div>
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python">
+                Python
+              </div>
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5">
+                HTML
+              </div>
+              <div class="List-Skill-Item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3">
+                CSS
+              </div>
+            </div>
+            <br>
+            <div class="Project-repo" >
+              <a href="https://github.com/Maxi-gasti/Page-Isef">
                 <img src="imagenes/github.png" class="Project-repo-img" alt="github">
                 Repositorio
               </a>      
@@ -241,57 +285,24 @@
           <img src="imagenes/Isef.png" class="Project-Img">
         </article>
       </section>
-    </main>
-    
-    <!--  PROJECTS -->
-
-    <h2 class="Project-title">Proyectos</h2>
-    <section class="Projects">
-      <article>
-        <div class="Project-Box">
+      <h2>Otros Proyectos</h2>
+      <section class="other-projects">
+        <a href="WebProjects.html">
+        <article class="other-art-1">
           <h3>Arch Linux</h3>
-          <p>Quiero considerar este proyecto mi mayor logro, configurar arch linux de 0 teniendo solo una terminal para dejarla como un sistema totalmente operable y usable para todo tipo de uso, aprendi muchos conceptos, como cuales: programas de bajo nivel, funcionamiento interno de una maquina, servidores en linux, automatizacion de operaciones, cyberseguridad y personalizacion como adaptabilidad.</p>
-          <div class="List-Skill">
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" alt="Arch Linux">
-              ArchLinux
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" alt="Nvim">
-              Nvim
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python">
-              Python
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3">
-              CSS
-            </div> 
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" alt="Rust">
-              Rust
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash">
-              Bash
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg" alt="Lua">
-              Lua
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C plus plus">
-              C++
-            </div>
-            <div class="List-Skill-Item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git">
-              Git
-            </div>
-          </div>
-        </div>
-        <img src="imagenes/linux.gif" class="Project-Img gif">
-      </article>
-    </section>
+        </article>
+        </a>
+        <a href="OtherProjects.html">
+        <article class="other-art-2">
+          <h3>Rasperry Pi</h3>
+        </article>
+        </a>
+        <a href="OtherProjects.html">
+        <article class="other-art-2">
+          <h3>?</h3>
+        </article>
+        </a>
+      </section>
+    </main>
   </body>
 </html>
