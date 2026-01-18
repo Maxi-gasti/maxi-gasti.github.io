@@ -1,0 +1,42 @@
+body {
+  margin: 20px;
+  background-color: #339995;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #bbcbcc;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 2px inset #808080;
+}
+
+main {
+  background-color: #bbcbcc;
+  box-sizing: border-box;
+  width: 50%;
+  margin: auto;
+  border: 2px inset #ccdcdd;
+  padding: 3px;
+}
+
+section {
+  border: 2px inset #808080;
+  background-color: #202090;
+}
+
+section h1 {
+  text-align: center;
+  color: #e0e050;
+  text-shadow: 2px 2px #902020;
+}
+
+.blink {
+  font-family: "Comic Sans MS";
+  animation: blink 1s infinite;
+}
+
+/*font-family: "Comic Sans MS";*/
