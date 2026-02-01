@@ -322,28 +322,14 @@ aside nav button:hover {
 
 /* --- OTHER PROJECTS --- */
 
-.other-projects {
+.Other-Project {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Other-Project article {
   display: flex;
-  justify-content: space-around;
 }
-
-.other-projects article {
-  box-sizing: border-box;
-  width: 18vw;
-  height: 40vh;
-  border: 1px solid var(--gray);
-  border-radius: 8px;
-}
-
-.other-art-1, .other-art-2 {
-  background-image: url("imagenes/background.gif");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 
 /* --- DIPLOME SECTION --- */
 
